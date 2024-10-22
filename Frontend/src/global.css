@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-jost: Jost;
+  --font-noto-sans: "Noto Sans";
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-lightskyblue: #6ac3f5;
+  --color-black: #000;
+  --color-steelblue: #4789c6;
+  --color-limegreen: #4bdf33;
+  --color-darkslategray: #424242;
+
+  /* Gaps */
+  --gap-mid: 17px;
+
+  /* Paddings */
+  --padding-81xl: 100px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-3xs: 10px;
+}
