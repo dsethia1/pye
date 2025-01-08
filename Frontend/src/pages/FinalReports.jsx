@@ -48,7 +48,7 @@ const FinalReports = () => {
               <b className="autism-negative"><ConfidencePage/></b>
             </div>
           </div>
-          <div className="frame-parent">
+          {/*<div className="frame-parent">
             <div className="get-detailed-results-parent">
               <div className="get-detailed-results">{`Get Detailed Results: `}</div>
               <div className="we-will-email">{`We will email you detailed Ege_Maps. `}</div>
@@ -59,7 +59,7 @@ const FinalReports = () => {
             </div>
             <input className="email" placeholder="Email:" type="email" />
             <input className="name" placeholder="Name: " type="email" />
-          </div>
+          </div> */}
         </div>
       </div>
       <a

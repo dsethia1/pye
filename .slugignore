@@ -1,8 +1,15 @@
 venv/
 .venv/
 .vercel/
+Backend/__pycache__/
 Frontend/node_modules/
-build/
+Frontned/build/
+uploads/
+model.pkl
+test.xlsx
+train_both.csv
+vercel.json
+
 dist/
 out/
 .git/
@@ -22,5 +29,4 @@ docs/
 *.h5
 *.zip
 *.tar.gz
-Backend/__pycache__/
 *.pyc

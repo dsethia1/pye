@@ -4,7 +4,7 @@ from .routes import register_routes
 import os
 
 def create_app():
-    app = Flask(__name__, static_folder='build')
+    app = Flask(__name__, static_folder=os.path.abspath('Frontend/build'))
     
     UPLOAD_FOLDER = 'uploads'
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
