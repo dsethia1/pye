@@ -3,7 +3,8 @@ venv/
 .vercel/
 Backend/__pycache__/
 Frontend/node_modules/
-Frontned/build/
+Frontend/package-lock.json
+Frontend/build/
 uploads/
 model.pkl
 test.xlsx
