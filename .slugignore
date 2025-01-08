@@ -1,5 +1,7 @@
 venv/
-node_modules/
+.venv/
+.vercel/
+Frontend/node_modules/
 build/
 dist/
 out/
@@ -20,5 +22,5 @@ docs/
 *.h5
 *.zip
 *.tar.gz
-__pycache__/
+Backend/__pycache__/
 *.pyc
