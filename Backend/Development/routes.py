@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, send_from_directory
 from pydub import AudioSegment
-from Backend.Prediction import pred
+from .Prediction import pred
 import os
 
 def register_routes(app):

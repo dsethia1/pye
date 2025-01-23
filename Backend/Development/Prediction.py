@@ -4,7 +4,7 @@ import os
 import pandas as pd
 import numpy as np
 
-from Backend.Extraction import data_processing
+from .Extraction import data_processing
 
 def download_model(bucket_name, model_key, local_path='model.pkl'):
     s3 = boto3.client('s3')
