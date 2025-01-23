@@ -10,7 +10,7 @@ def create_app():
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
     os.makedirs(UPLOAD_FOLDER, exist_ok=True) 
     
-    CORS(app)
+    CORS(app, resources={r"/*": {"origins": "*"}})
     register_routes(app)
         
     return app
