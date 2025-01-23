@@ -25,6 +25,9 @@ const VoiceAnalysis = () => {
         method: 'POST',
         body: formData,
       });
+      if(uploadResponse.ok){
+        console.log('Upload Response is ok')
+      }
       if(!uploadResponse.ok){
         throw new Error('Network response not ok');
       }
