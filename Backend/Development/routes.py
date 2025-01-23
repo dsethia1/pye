@@ -13,6 +13,7 @@ def register_routes(app):
     
         # Save the file temporarily in .webm format
         input_path = os.path.join('uploads', 'recording.webm')
+        print(input_path)
         audio_file.save(input_path)
 
         # Convert .webm to .wav
