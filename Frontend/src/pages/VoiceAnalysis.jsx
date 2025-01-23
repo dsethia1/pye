@@ -21,7 +21,7 @@ const VoiceAnalysis = () => {
     formData.append('audio', audioBlob, 'recording.webm');
 
     try{
-      const uploadResponse = await fetch('/api/upload', {
+      const uploadResponse = await fetch('https://pye-eb7g.onrender.com/api/upload', {
         method: 'POST',
         body: formData,
       });

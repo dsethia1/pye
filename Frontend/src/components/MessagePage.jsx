@@ -8,7 +8,7 @@ const MessagePage = () => {
     useEffect(() => {
         const fetchMessage = async () => {
             try {
-                const response = await fetch('/api/message');
+                const response = await fetch('https://pye-eb7g.onrender.com/api/message');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
