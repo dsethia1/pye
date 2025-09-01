@@ -1,7 +1,8 @@
 # PYE
 
 ## Description: 
-PYE (Prognosis Youth Evaluation) is a full-stack application aimed at improving Autism Spectrum Disorder (ASD) diagnosis through vocal biomarkers. Coded with a react frontend and flask backend, this application allows clinicians and users to upload vocal recordings and receive real-time diagnostic predictions powered by a multilingual-trained XGBoost Model. Since its launch, PYE has conducted 50+ diagnoses, providing accessible and virtual evaluations. 
+PYE (Prognosis Youth Evaluation) is a full-stack application aimed at improving Autism Spectrum Disorder (ASD) diagnosis through vocal biomarkers. Coded with a react frontend and flask backend, this application allows clinicians and users to upload vocal recordings and receive real-time diagnostic predictions powered by a multilingual-trained XGBoost Model (Analysis.pdf). Since its launch, PYE has conducted 50+ diagnoses, providing accessible and virtual evaluations. Attached to this repositry is a demo video (DEMO.mp4).
+
 
 ## Requirements: 
 - Python 3.12.7
